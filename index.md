@@ -30,7 +30,7 @@ Existing CTF challenges
 {: .fs-6 .fw-300 }
 Links to event and admin page
 
-[Alpha Event](https://alpha.dev.ntp-event.dk){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }[Admin Panel](https://admin.dev.ntp-event.dk){: .btn .btn-red .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Alpha Event](https://alpha.dev.ntp-event.dk){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }[Admin Panel](https://admin.dev.ntp-event.dk:8003/){: .btn .btn-red .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 
