@@ -39,7 +39,7 @@ permalink: /docs/challenges
   <tr>
     <td class="tg-0pky"><a href="/docs/challenges/web-exploitation/">Web Exploitation</a></td>
     <td class="tg-0pky"><a herf="/docs/challenges/web-exploitation/#micro-cms-xxs-and-url"> Micro XSS/URL</a>  </td>
-    <td class="tg-0pky"><a herf="/docs/challenges/web-exploitation/#heartbleed">HeartBleed</a><br><a herf="">Abuse Credentials</a></td>
+    <td class="tg-0pky"><a herf="/docs/challenges/web-exploitation/#heartbleed">HeartBleed</a><br><a herf="https://docs.haaukins.com//docs/challenges/web-exploitation/#abuse-credentials">Abuse Credentials</a></td>
     <td class="tg-0pky"><a herf="/docs/challenges/web-exploitation/#cross-site-request-forgery">CSRF</a><br><a herf="/docs/challenges/web-exploitation/#sql-injection">SQL Injection</a><br><a herf="/docs/challenges/web-exploitation/#impersonate-colleague">Impersonate Colleague</a><br><a herf="/docs/challenges/web-exploitation/#cross-site-scripting">Cross-site Scripting</a><br><a herf="/docs/challenges/web-exploitation/#convince-visitation-of-url">Convince visitation of URL</a></td>
     <td class="tg-0pky"><a herf="/docs/challenges/web-exploitation/#unauthenticated-access">Unauthenticated Access</a></td>
     <td class="tg-0pky"><a herf="/docs/challenges/web-exploitation/#remote-access">Remote Access</a><br><a herf="/docs/challenges/web-exploitation/#hijack-domain">Hijack Domain</a></td>
