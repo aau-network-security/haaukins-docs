@@ -23,7 +23,7 @@ Github Links to repositories:
 {: .fs-6 .fw-300 }
 Existing CTF challenges
 
-[Challenges](/docs/challenges/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Challenges](/docs/challenges){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 --- 
 
