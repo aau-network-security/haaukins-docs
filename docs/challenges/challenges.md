@@ -61,10 +61,10 @@ permalink: /docs/challenges
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><a href="/docs/challenges/binary">Binary</a></td>
+    <td class="tg-0pky"><a href="/binary">Binary</a></td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"><a href="docs/challenges/binary/#set-user-id">Set User ID</a></td>
-    <td class="tg-0pky"><a href="docs/challenges/binary/#buffer-overflow">Buffer Overflow</a></td>
+    <td class="tg-0pky"><a href="/binary/#set-user-id">Set User ID</a></td>
+    <td class="tg-0pky"><a href="/binary/#buffer-overflow">Buffer Overflow</a></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
