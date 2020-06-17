@@ -16,7 +16,7 @@
 title: Haaukins Documentation 
 description: Contains Haaukins documentation and related project information
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://docs.haaukins.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.haaukins.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
