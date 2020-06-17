@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Designing a challenge
-parent: Haaukins
+parent: Challenges
 nav_order: 5
 ---
 
@@ -17,6 +17,7 @@ Generally, challenges can consist of any set of docker images and VirtualBox OVA
 - Docker images that are supposed to contain flags should ideally be able to receive a dynamic flag through the `APP_FLAG` environment variable (or another environment variable specified in the challenge config).
 
 ### Example of challenge configuration
+
 ```yaml
 - name: Cross-Site Scripting                     # display name of challange
     tags:
