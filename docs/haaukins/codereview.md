@@ -16,12 +16,11 @@ there is, then merge conflicts will be appeared when merging branch into
 targeted branch.
 - Branches should be created feature or bug based and should have descriptive
 names, for instance of there is a memory leak bug then name of the branch,
-which will contain the solution to it, should be [ hotfix/fix-memory-leak-#000 ] or [ issue-
-#212 ]
+which will contain the solution to it, should be [ hotfix/fix-memory-leak-#000 ] or [ feature/integrate-vpn-#000 ]
+- Last three numbers should represent issue number, if the change has minor fix, feature, last three characters could be 000
 - Codes should be committed in formatted format (etc. using GOIMPORTS )
 - Important parts should be commented
-- There should be a naming convention (function names and variable names
-should follow defined pattern such as getName(private) or GetName (public)
+- There should be a naming convention (function names and variable names should follow defined pattern such as getName(private) or GetName (public)
 - Commit messages should be as much as shorter and meaningful.
 
 
