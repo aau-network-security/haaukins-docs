@@ -35,8 +35,10 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Haaukins Project":
-    - "//github.com/aau-network-security/haaukins"
+  "Edit Page": 
+    - "//github.com/aau-network-security/haaukins-docs/docs/"
+  "Create Issue":
+    - "//github.com/aau-network-security/haaukins-docs/issues/new"
 
 
 # Footer content appears at the bottom of every page's main content

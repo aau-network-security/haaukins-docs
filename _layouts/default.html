@@ -68,6 +68,7 @@ layout: table_wrappers
             {% endif %}
           {% endunless %}
           <div id="main-content" class="page-content" role="main">
+
             {% if site.heading_anchors != false %}
               {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
             {% else %}
@@ -93,6 +94,7 @@ layout: table_wrappers
             <hr>
             <footer role="contentinfo">
               <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
+              <a href=><button class="menu-button fs-3 js-main-nav-trigger" data-text-toggle="Hide" type="button">Edit This Page</a></button>
             </footer>
           {% endif %}
 
