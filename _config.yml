@@ -36,7 +36,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Edit Page": 
-    - "//github.com/aau-network-security/haaukins-docs/docs/"
+    - "//github.com/aau-network-security/haaukins-docs/tree/master/docs"
   "Create Issue":
     - "//github.com/aau-network-security/haaukins-docs/issues/new"
 
