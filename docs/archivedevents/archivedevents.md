@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Haaukins
+title: Archived Events
 nav_order: 1
 has_children: true
 permalink: /docs/archivedevents
