@@ -32,7 +32,11 @@ Links to event and admin page
 
 [Alpha Event](https://alpha.haaukins.com){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }[Admin Panel](https://admin.haaukins.com:8003/){: .btn .btn-red .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
+---
 
+{: .fs-6 .fw-300 } 
+Archived events scoreboard & teams in graph
 
+[Archived Events](/docs/archivedevents){: .btn .btn-red .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
