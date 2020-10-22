@@ -2,7 +2,7 @@
 layout: default
 title: Binary
 parent: Challenges
-nav_order: 5
+nav_order: 4
 ---
 
 - [Binary](#binary)
@@ -34,7 +34,7 @@ Training Challenge
 **Learning Objectives:**
 - Learn how to escalate the privilege and get root access
 - ​Scanning a system to check if programs have specific privileges
-  
+
 **Description:** ​In this challenge the users will have access to an SSH session in which there
 are a file containing the flag. That file is only readable by user with root privileges. In order to
 solve the challenge the user will have to find the command for which is set the SUID bit and
@@ -52,7 +52,7 @@ then escalate privileges in order to open the file containing the flag.
 - Learn how the processes are held in the memory
 - Learn how to exploit a buffer overflow through shellcode
 - Learn how to manipulate memory and it’s registers to execute malicious code
-  
+
 **Description:** ​In this challenge the users will have access to an SSH session in which there
 are a file containing the flag. That file is only readable by user with root privileges. The
 challenge will require the user to find a program which has SUID bit set and is vulnerable to
@@ -64,4 +64,3 @@ code to get root privileges.
 - Know what is a buffer overflow
 - Know how to debug a binary file
 - Basic knowledge of Assembly
-

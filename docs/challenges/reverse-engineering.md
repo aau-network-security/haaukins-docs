@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Engineering
 parent: Challenges
-nav_order: 0
+nav_order: 4
 ---
 
 - [Reverse Engineering](#reverse-engineering)
@@ -35,7 +35,7 @@ Training Challenge
 **Learning Objectives:**
 
 - Learn the basic syntax of Go Programming language
-- 
+-
 **Description:** ​This is a Code-base challenge in which the user will have access to an FTP
 server in order to download a source code file. The user have to gather the piece of flag
 spreaded over the tricky source code in order to solve the challenge.
@@ -50,7 +50,7 @@ spreaded over the tricky source code in order to solve the challenge.
 **Learning Objectives:**
 
 - Learn how to crack a program
-- 
+-
 **Description:** ​This is a simple reverse engineering challenge in which the users will have
 access to an FTP server in order to download a binary file containing the flag. The main goal
 of the challenge is to let understand the user how to crack a program in order to change its

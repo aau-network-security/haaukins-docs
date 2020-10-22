@@ -2,7 +2,7 @@
 layout: default
 title: Forensics
 parent: Challenges
-nav_order: 4
+nav_order: 1
 ---
 
 
@@ -15,7 +15,7 @@ nav_order: 4
   - [Vulnerability exploitation](#vulnerability-exploitation)
   - [Man in the Middle](#man-in-the-middle)
 
-# Forensics 
+# Forensics
 
 This is a broad category that includes different types of training challenges
 such as file format analysis, steganography, memory dump analysis, or network packet
@@ -62,7 +62,7 @@ request to a HTTP server. Inspecting this POST request packet, will lead to the 
 
 - Introduction to NMAP and network scanning
 - Knowledge in fingerprinting, ports and specific protocols such as HTTP
-  
+
 **Description:** ​The network scanning challenge is indented as an introduction to
 vulnerabilities associated with unencrypted network traffic, HTTP. The HAAUKINS user, is
 expected to perform a simple active network scanning procedure of a local subnet using
@@ -106,14 +106,14 @@ encryption
 - Fingerprinting with NMAP
 - Brute force attacks on a live system and why a powerful wordlist can do this easy
 - Characteristics of encoding schemes
-  
+
 **Description:** ​FTP servers are used to keep files and deliver it through FT protocol, however
 some FTP servers use weak or default passwords which make them vulnerable to brute
 force attacks and gain access to files. This challenge requires to brute force FTP server
 using default dictionaries on Kali machine in order to achieve flag file.
 
 **Prerequisite:**
-- Knowhow to scan a network 
+- Knowhow to scan a network
 - Basic knowledge of Hydra (Kali Tool) or different techniques to make a brute force attack
 on a live system
 
@@ -126,7 +126,7 @@ on a live system
 - Introduction to the Metasploit framework
 - Confidence navigating Kali Linux terminal
 - Acquire knowledge about vulnerability search and exploits
-- 
+-
 **Description:** ​In this challenge, the HAAUKINS user is expected to utilise an operating
 system specific active network scan, to locate a host connected to the network running an
 outdated and extremely vulnerable operating system. By deeper inspection, the user will be
@@ -155,4 +155,3 @@ man-in-the-middle between a server and a client.
 **Prerequisite:**
 - Know what a man-in-the-middle attack is
 - Know the vulnerabilities attached by only running https on part of the website
-
