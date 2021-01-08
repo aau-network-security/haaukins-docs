@@ -2,12 +2,14 @@
 layout: default
 title: Binary
 parent: Challenges
-nav_order: 4
+nav_order: 2
 ---
 
 - [Binary](#binary)
     - [Difficulty Levels](#difficulty-levels)
   - [Set User ID](#set-user-id)
+  - [Format String Exploitation](#format-string-exploitation)
+  - [Shrunk-Chunk Heap Overflow](#shrunk-chunk-heap-overflow)
   <!-- - [Buffer Overflow](#buffer-overflow) -->
   - [Format String Exploitation](#format-string-exploitation)
   - [Shrunk-Chunk Heap Overflow](#shrunk-chunk-heap-overflow)

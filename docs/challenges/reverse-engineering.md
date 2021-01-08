@@ -2,7 +2,7 @@
 layout: default
 title: Reverse Engineering
 parent: Challenges
-nav_order: 4
+nav_order: 8
 ---
 
 - [Reverse Engineering](#reverse-engineering)

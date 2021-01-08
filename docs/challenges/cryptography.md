@@ -2,15 +2,15 @@
 layout: default
 title: Cryptography
 parent: Challenges
-nav_order: 2
+nav_order: 5
 ---
 
 - [Cryptography](#cryptography)
     - [Difficulty Levels](#difficulty-levels)
-    - [JS Crypto Client](#js-crypto-client)
-    - [MD5 Collision Course](#md5-collision-course)
-    - [Lurking in the shadows](#lurking-in-the-shadows)
-    - [SSH Vigenère Vignette](#ssh-vigenère-vignette)
+  - [JS Crypto Client](#js-crypto-client)
+  - [MD5 Collision Course](#md5-collision-course)
+  - [Lurking in the shadows](#lurking-in-the-shadows)
+  - [SSH Vigenère Vignette](#ssh-vigenère-vignette)
 
 # Cryptography
 

@@ -2,18 +2,23 @@
 layout: default
 title: Forensics
 parent: Challenges
-nav_order: 1
+nav_order: 6
 ---
 
 
 - [Forensics](#forensics)
     - [Difficulty Levels](#difficulty-levels)
-    - [Network sniffing](#network-sniffing)
-    - [Web server login](#web-server-login)
-    - [Network scanning](#network-scanning)
-    - [Telnet Stream and Login](#telnet-stream-and-login)
-    - [Git logs](#git-logs)
-    - [FTP server login](#ftp-server-login)
+  - [Network sniffing](#network-sniffing)
+  - [Web server login](#web-server-login)
+  - [Network scanning](#network-scanning)
+  - [Telnet Stream and Login](#telnet-stream-and-login)
+  - [Git logs](#git-logs)
+  - [FTP server login](#ftp-server-login)
+  - [Man in the Middle](#man-in-the-middle)
+  - [Steganography](#steganography)
+    - [Doormat Steganography](#doormat-steganography)
+    - [Steganography Slam](#steganography-slam)
+  - [Linux walk-through](#linux-walk-through)
     <!-- - [Vulnerability exploitation](#vulnerability-exploitation) -->
     - [Man in the Middle](#man-in-the-middle)
     - [Steganography](#steganography)
