@@ -7,12 +7,12 @@ nav_order: 2
 
 - [Binary](#binary)
     - [Difficulty Levels](#difficulty-levels)
+  - [Bittit Account Recovery](#bittit-account-recovery)
   - [Set User ID](#set-user-id)
   - [Format String Exploitation](#format-string-exploitation)
+  - [CorROPtion, please!](#corroption-please)
   - [Shrunk-Chunk Heap Overflow](#shrunk-chunk-heap-overflow)
   <!-- - [Buffer Overflow](#buffer-overflow) -->
-  - [Format String Exploitation](#format-string-exploitation)
-  - [Shrunk-Chunk Heap Overflow](#shrunk-chunk-heap-overflow)
 
 # Binary
 
@@ -29,6 +29,22 @@ Training Challenge
 - __Hard:__ ​It requires three-four steps based on the challenge category
 - __Very Hard:__​ It requires several steps in order to get the flag
 
+
+## Bittit Account Recovery
+
+**Points**: 27 **Difficulty**: Easy
+
+**Learning Objectives:**  
+- Improvement of binary exploitation skills, such as overflowing the stack. 
+- Getting more comfortable with Assembly code and tools like GDB and objdump.
+
+**Description:**  
+This challenge requires that the user bypasses a nonpermissive program flow in a binary containing an encrypted username and password. A pretend online forum has implemented an 'alternative' account recovery policy. The user downloads the binary from the website, and can then obtain the username and password through binary exploitation. Logging in with these credentials prints the flag.
+
+**Prerequisite:**  
+- Knowledge about the x86-64 instruction set.
+- Knowledge about GDB or a similar tool.
+- Knowledge about how the stack can be overwritten by exploiting functions like ```gets()```.
 
 
 ## Set User ID
@@ -87,6 +103,28 @@ Providing input with the right format specifiers will make the program slip up a
 - Knowledge of where and how functions in the printf() school of thought look for their arguments.
 - Basic knowledge of how the stack and its frames are organized.
 - Basic knowledge of memory access through pointers and when they are legal/illegal (e.g. Segmentation faults).
+
+
+## CorROPtion, please!
+
+**Points:** 60 **Difficulty:** Hard
+
+**Learning Objectives:**  
+- Learn how to do memory corruption with ROP when the stack is not executable.
+- Get more hands-on tinkering experience with x86-64, binary files/tools etc.
+
+**Description:**  
+In this challenge, the user is given a binary file with a buffer overflow vulnerability on the stack. A function must be called with specific parameters in order to print the flag. The stack is non-executable, but ROP can be used to orchestrate the call, by "borrowing" data and code snippets lying around in the binary.  
+
+**Prerequisite:**  
+- Knowledge about the possibility of corrupting stack memory, when ```gets()``` from the C Standard Library fetches user input.
+- Knowledge about how different file hardening techniques like stack-executability, canaries and PIE make exploits possible/"impossible".
+- Knowledge about the broad-strokes layout of binary files, e.g. where hard-coded data is stored.
+- Knowledge about the role of the stack and how stack memory is managed.
+- Working knowledge about the x86-64 instruction set, corresponding to an undergraduate course.
+- Comfortable with using the GDB and binutils in the terminal to solve a challenge.
+- Knowledge about Python and Bash is useful for delivering the payload.
+
 
 ## Shrunk-Chunk Heap Overflow
 
