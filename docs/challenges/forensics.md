@@ -11,6 +11,7 @@ nav_order: 6
   - [Network sniffing](#network-sniffing)
   - [Web server login](#web-server-login)
   - [Network scanning](#network-scanning)
+  - [SSHtay HYDRAted](#sshtay-hydrated)
   - [Telnet Stream and Login](#telnet-stream-and-login)
   - [Git logs](#git-logs)
   - [FTP server login](#ftp-server-login)
@@ -104,6 +105,25 @@ ip-address and provide the flag.
 **Prerequisite:**
 - Basic knowledge in Linux OS and its terminal
 - Know what software to use when scanning a network
+
+
+## SSHtay HYDRAted
+
+**Points:** ​20 **Difficulty:** ​Very easy
+
+**Learning Objectives:**
+- Learn how to perform a brute-force attack on an SSH server by using Hydra.
+- Learn how to establish constraints for a password alphabet.
+- Learn how to reason about the feasibility of the password search space and the impact of parallelization.
+
+**Description:**
+In this challenge, users can brute-force a simple password for an SSH server by using Hydra. Hydra is a versatile tool commonly used for brute-forcing login details in penetration testing etc. This tool is known for being really fast, in large part due to its parallelization.
+
+**Prerequisite:**
+- Able to work with the Linux CLI.
+- Knows how to connect to an SSH server.
+- Knowledge of Hydra helps, but ability to google it is sufficient.
+
 
 ## Telnet Stream and Login
 
