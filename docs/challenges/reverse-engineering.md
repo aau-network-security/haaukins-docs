@@ -104,5 +104,25 @@ This is a simple reverse engineering challenge composed of two challenges. Furth
 - Know how to use gdb (GNU Debugger) or radare2 (Reverse Engineering Framework)  
 - Basic understanding of Assembler instructions in 32-bit   
 
+## C0ffee 0verfl0w
+
+**Points:** ​ 42 **Difficulty:** Medium
+
+**Learning Objectives:**
+
+- Learn how to take advantage of a buffer overflow/overrun. Another objective is to do forensics on the binary and decrypt the prices of successfully exploiting the overflow  
+
+
+**Description:**
+The challenge is a buffer overflow challenge. To retrieve the flag a buffer must be exploited correctly. A string will be presented when successfully exploited which then must be decrypted and deobfuscated from two formats namely, from hex and from base85 to obtain the flag.
+
+1. C0ffee_0verfl0w  
+    Difficulty: Medium-Low  
+    Browse C0ffee-0verfl0w.com and download the binary. When the binary has been exploited succesfully you will receive an encrypted flag. Decrypt the flag with openssl using the key; ThisMightBecomeHandy42. Algorithm used is AES256 and the cipher text is base64 encoded.
+
+**Prerequisite:**
+- Know how to use r2/radare2(Reverse Engineering Framework) or gdb (GNU Debugger)
+- Basic understanding of Assembler instructions in 32-bit   
+- Basic understanding of encryption/decryption schemes and string formats   
 
 
