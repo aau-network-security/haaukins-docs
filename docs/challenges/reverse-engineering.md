@@ -126,4 +126,3 @@ The challenge is a buffer overflow challenge. To retrieve the flag a buffer must
 - Basic understanding of Assembler instructions in 32-bit   
 - Basic understanding of encryption/decryption schemes and string formats   
 
-
