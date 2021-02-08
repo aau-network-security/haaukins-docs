@@ -80,20 +80,27 @@ The user has to download an APK from a website and reverse engineer the APK to r
 **Prerequisite:**
 - Knowledge of how an android project is structured.
 
-<!-- ## Program Behaviour
+## Pwn_strings
 
-**Points:** ​ 10 **Difficulty:** ​Medium
+**Points:** ​ 20, 42 **Difficulty:** Easy, Medium
 
 **Learning Objectives:**
 
-- Learn how to crack a program
--
-**Description:** ​This is a simple reverse engineering challenge in which the users will have
-access to an FTP server in order to download a binary file containing the flag. The main goal
-of the challenge is to let understand the user how to crack a program in order to change its
-behaviour. It will be necessary to use a debugger tool to analyse and understand the
-workflow on the program.
+- Learn how to disassemble and do forensics on binaries, to be able crack the executable binary.  
+
+
+**Description:**
+1. Strings_everywhere  
+    Difficulty: Easy  
+    The binary for the callenge can be found and downloaded from `pwn-strings.com` website. The tools used to find the frist flag in the frist part of the challenge is `strings`, `grep` or a different tool to extract strings in binaries.
+    
+2. OWN_if_statement  
+    Difficulty: Medium   
+    The binary for the callenge can be found and downloaded from `pwn-strings.com` website. The tools used to find the second flag is debugging software such as `gdb` or other disassembly software such as radare2(r2). 
 
 **Prerequisite:**
-- Know how to use a debugger tool
-- Basic knowledge of Assembly and CPU registers -->
+- Know how to use gdb (GNU Debugger) or radare2 (Reverse Engineering Framework)  
+- Basic understanding of Assembler instructions in 32-bit   
+
+
+
