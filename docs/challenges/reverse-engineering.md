@@ -10,6 +10,7 @@ nav_order: 8
   - [Weird Code](#weird-code)
   - [Conditional Reverse Engineering](#conditional-reverse-engineering)
   - [Reverse APK](#reverse-apk)
+  - [PWN_Strings](#pwn_strings)
   <!-- - [Program Behaviour](#program-behaviour) -->
 
 # Reverse Engineering
@@ -90,6 +91,7 @@ The user has to download an APK from a website and reverse engineer the APK to r
 
 
 **Description:**
+This is a simple reverse engineering challenge composed of two challenges. Further investigation by applying the right tools for reverse engineering binaries will unveil more information on how to find the first and second flags.
 1. Strings_everywhere  
     Difficulty: Easy  
     The binary for the callenge can be found and downloaded from `pwn-strings.com` website. The tools used to find the frist flag in the frist part of the challenge is `strings`, `grep` or a different tool to extract strings in binaries.
