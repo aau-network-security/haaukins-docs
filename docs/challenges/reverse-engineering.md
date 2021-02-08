@@ -11,6 +11,7 @@ nav_order: 8
   - [Conditional Reverse Engineering](#conditional-reverse-engineering)
   - [Reverse APK](#reverse-apk)
   - [PWN_Strings](#pwn_strings)
+  - [C0ffee-0verfl0w](#c0ffee-0verfl0w)
   <!-- - [Program Behaviour](#program-behaviour) -->
 
 # Reverse Engineering
@@ -81,7 +82,7 @@ The user has to download an APK from a website and reverse engineer the APK to r
 **Prerequisite:**
 - Knowledge of how an android project is structured.
 
-## Pwn_strings
+## PWN_strings
 
 **Points:** ​ 20, 42 **Difficulty:** Easy, Medium
 
@@ -117,7 +118,7 @@ This is a simple reverse engineering challenge composed of two challenges. Furth
 The challenge is a buffer overflow challenge. To retrieve the flag a buffer must be exploited correctly. A string will be presented when successfully exploited which then must be decrypted and deobfuscated from two formats namely, from hex and from base85 to obtain the flag.
 
 1. C0ffee_0verfl0w  
-    Difficulty: Medium-Low  
+    Difficulty: Medium  
     Browse C0ffee-0verfl0w.com and download the binary. When the binary has been exploited succesfully you will receive an encrypted flag. Decrypt the flag with openssl using the key; ThisMightBecomeHandy42. Algorithm used is AES256 and the cipher text is base64 encoded.
 
 **Prerequisite:**
