@@ -10,6 +10,8 @@ nav_order: 8
   - [Weird Code](#weird-code)
   - [Conditional Reverse Engineering](#conditional-reverse-engineering)
   - [Reverse APK](#reverse-apk)
+  - [PWN_Strings](#pwn_strings)
+  - [C0ffee-0verfl0w](#c0ffee-0verfl0w)
   <!-- - [Program Behaviour](#program-behaviour) -->
 
 # Reverse Engineering
@@ -80,20 +82,47 @@ The user has to download an APK from a website and reverse engineer the APK to r
 **Prerequisite:**
 - Knowledge of how an android project is structured.
 
-<!-- ## Program Behaviour
+## PWN_strings
 
-**Points:** ​ 10 **Difficulty:** ​Medium
+**Points:** ​ 20, 42 **Difficulty:** Easy, Medium
 
 **Learning Objectives:**
 
-- Learn how to crack a program
--
-**Description:** ​This is a simple reverse engineering challenge in which the users will have
-access to an FTP server in order to download a binary file containing the flag. The main goal
-of the challenge is to let understand the user how to crack a program in order to change its
-behaviour. It will be necessary to use a debugger tool to analyse and understand the
-workflow on the program.
+- Learn how to disassemble and do forensics on binaries, to be able crack the executable binary.  
+
+
+**Description:**
+This is a simple reverse engineering challenge composed of two challenges. Further investigation by applying the right tools for reverse engineering binaries will unveil more information on how to find the first and second flags.
+1. Strings_everywhere  
+    Difficulty: Easy  
+    The binary for the callenge can be found and downloaded from `pwn-strings.com` website. The tools used to find the frist flag in the frist part of the challenge is `strings`, `grep` or a different tool to extract strings in binaries.
+    
+2. OWN_if_statement  
+    Difficulty: Medium   
+    The binary for the callenge can be found and downloaded from `pwn-strings.com` website. The tools used to find the second flag is debugging software such as `gdb` or other disassembly software such as radare2(r2). 
 
 **Prerequisite:**
-- Know how to use a debugger tool
-- Basic knowledge of Assembly and CPU registers -->
+- Know how to use gdb (GNU Debugger) or radare2 (Reverse Engineering Framework)  
+- Basic understanding of Assembler instructions in 32-bit   
+
+## C0ffee 0verfl0w
+
+**Points:** ​ 42 **Difficulty:** Medium
+
+**Learning Objectives:**
+
+- Learn how to take advantage of a buffer overflow/overrun. Another objective is to do forensics on the binary and decrypt the prices of successfully exploiting the overflow  
+
+
+**Description:**
+The challenge is a buffer overflow challenge. To retrieve the flag a buffer must be exploited correctly. A string will be presented when successfully exploited which then must be decrypted and deobfuscated from two formats namely, from hex and from base85 to obtain the flag.
+
+1. C0ffee_0verfl0w  
+    Difficulty: Medium  
+    Browse C0ffee-0verfl0w.com and download the binary. When the binary has been exploited succesfully you will receive an encrypted flag. Decrypt the flag with openssl using the key; ThisMightBecomeHandy42. Algorithm used is AES256 and the cipher text is base64 encoded.
+
+**Prerequisite:**
+- Know how to use r2/radare2(Reverse Engineering Framework) or gdb (GNU Debugger)
+- Basic understanding of Assembler instructions in 32-bit   
+- Basic understanding of encryption/decryption schemes and string formats   
+
