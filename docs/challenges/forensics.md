@@ -26,6 +26,9 @@ nav_order: 6
         - [Doormat Steganography](#doormat-steganography)
         - [Steganography Slam](#steganography-slam)
     - [Linux walk-through](#linux-walk-through)
+  - [Translator](#Translator)
+  - [Android Permission Abuse](#Android-Permission-Abuse)
+  - [Android Phishing Login Page](#Android-Phishing-Login-Page)
 
 # Forensics
 
@@ -271,3 +274,58 @@ This is intended for people who never before seen a terminal or worked with Linu
 
 **Prerequisite:**
 - Know how to open a terminal and type a command.
+
+
+
+## Translator
+**Points:** 18 - 21 - 23 **Difficulty:** Easy - Medium
+
+**Learning Objectives:**
+- Learn how to reverse an apk.
+- Learn about apk certificate.
+- Learn to follow a packed in wireshark.
+
+**Description**
+This app provide an android device a translator that can be used on every site. By highligting a word or sentence on the device the app can be launched on the selection bar. The app then sends the text to be translated online. 
+The app is holding secrets that shows information about the request that can be received by revese engineering the app.   
+The challenge is using an emulator, wireshark and multiple android tools to get information about the app and the connections it have. 
+
+**Prerequisite:**
+- Knowledge of an android project. 
+- Knowledge of where information can be found inside an android project. 
+- Know how to reverse and read an APK file by using APKTOOL 
+- Knowledge of following a stream in wireshark. 
+
+## Android Permission Abuse
+**Points:** 27 - 29 **Difficulty:** Medium
+
+**Learning Objectives:**
+- Learn how to reverse an apk.
+- Learn to read android src code. 
+- Learn to follow a packed in wireshark.
+- Learn about permissions on android. 
+
+**Description**
+This challenge is an apk file that ask for permission from the user and with the permission to read just sending the data in clear text over the internet to an api hosted. This shows a peak into how much data can be acces when got permission, and permission is accepted by most without thinking about this. This is also way in the latast version of android there have been focus on adding more layers to the permission and get the user to actually think about them.
+
+**Prerequisite:**
+- Knowledge of an android project. 
+- Knowledge of where information can be found inside an android project. 
+- Know how to reverse and read an APK file by using APKTOOL.
+- Knowledge of following a stream in wireshark. 
+- Knowledge of android permissions and what is possible id they are granted. 
+
+## Android Phishing Login Page
+**Points:** 37 **Difficulty:** Medium
+
+**Learning Objectives:**
+- Learn to follow a packed in wireshark.
+- Learn about android app links. 
+
+**Description**
+This challenge is using android app link to phishing data from the user. When the app android app is installed on the android device, it is linked with a website it does not own, in this case it is a fake banking website, that have a login screen. When clicking on a link to the website the app launches instead, the app then shows a login screen. When trying to login nothing happens on the screen, but the credentials is send to a server on the network.
+
+**Prerequisite:**
+- Knowledge of an android project. 
+- Knowledge of following a stream in wireshark. 
+- Knowledge of app links on android. 
