@@ -19,7 +19,7 @@ schemaType = "Organization"
 schemaLogo = "logo-doks.png"
 schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/aau-network-security/haaukins"
+schemaGitHub = "https://github.com/aau-network-security/haaukins-docs"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
