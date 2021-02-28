@@ -1,0 +1,192 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=preload as=font href=/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><link rel=stylesheet href=/main.f7e014c26dc6a3f2f527ee8c78e0f848f3426738a3acffa4f2bf800d63d942d0595a0a1b4a9182f453aa2e546be04edf0222cb3983df4816b0c4ddf999aa9345.css integrity="sha512-9&#43;AUwm3Go/L1J&#43;6MeOD4SPNCZzijrP&#43;k8r&#43;ADWPZQtBZWgobSpGC9FOqLlRr4E7fAiLLOYPfSBawxN35maqTRQ==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>Troubleshooting Haaukins - Haaukins</title><meta name=description content="Solutions to common problems on Haaukins Platform"><link rel=canonical href=/docs/help/troubleshooting/><meta name=twitter:card content=summary_large_image><meta name=twitter:image content=/doks.png><meta name=twitter:title content="Troubleshooting Haaukins"><meta name=twitter:description content="Solutions to common problems on Haaukins Platform"><meta name=twitter:site content=@henkverlinde><meta name=twitter:creator content=@henkverlinde><meta property=og:title content="Troubleshooting Haaukins"><meta property=og:description content="Solutions to common problems on Haaukins Platform"><meta property=og:type content=article><meta property=og:url content=/docs/help/troubleshooting/><meta property=og:image content=/doks.png><meta property=article:published_time content=2020-11-12T15:22:20+01:00><meta property=article:modified_time content=2021-02-28T21:16:01+02:00><meta property=og:site_name content=Haaukins><meta property=article:publisher content=https://www.facebook.com/verlinde.henk><meta property=article:author content=https://www.facebook.com/verlinde.henk><meta property=og:locale content=en_US><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"\/"},{"@type":"ListItem","position":2,"name":"Docshelptroubleshooting","item":"\/docshelptroubleshooting\/"}]}</script><meta name=theme-color content=#fff><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest></head><body class="docs single"><div class="header-bar fixed-top"></div><header class="navbar fixed-top navbar-expand-md navbar-light"><div class=container><input class="menu-btn order-0" type=checkbox id=menu-btn>
+<label class="menu-icon d-md-none" for=menu-btn><span class=navicon></span></label><a class="navbar-brand order-1 order-md-0 mr-auto" href=/>Haaukins</a>
+<button id=mode class="btn btn-link order-2 order-md-4" type=button aria-label="Toggle mode">
+<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><path d="M12 1V3z"/><path d="M12 21v2z"/><path d="M4.22 4.22 5.64 5.64z"/><path d="M18.36 18.36 19.78 19.78z"/><path d="M1 12H3z"/><path d="M21 12h2z"/><path d="M4.22 19.78 5.64 18.36z"/><path d="M18.36 5.64 19.78 4.22z"/></svg></span></button><ul class="navbar-nav social-nav order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/aau-network-security/haaukins><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0 0 20 4.77 5.07 5.07.0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38.0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 0 0 5 4.77a5.44 5.44.0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 0 0 9 18.13V22"/></svg><span class="ml-2 sr-only">GitHub</span></a></li></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav mr-auto order-5 order-md-2"><li class="nav-item active"><a class=nav-link href=/docs/haaukins/introduction/>Docs</a></li></ul><div class="break order-6 d-md-none"></div><form class="navbar-form flex-grow-1 order-7 order-md-3"><input id=userinput class="form-control is-search" type=search placeholder="Search docs..." aria-label="Search docs..." autocomplete=off><div id=suggestions class="shadow bg-white rounded"></div></form></div></div></header><div class="wrap container" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar"><nav class=docs-links aria-label="Main navigation"><h3>Haaukins</h3><ul class=list-unstyled><li><a class=docs-link href=/docs/haaukins/configuration/>Configuration</a></li><li><a class=docs-link href=/docs/haaukins/connected-services/>Connected Services</a></li><li><a class=docs-link href=/docs/haaukins/installation/>Installation</a></li><li><a class=docs-link href=/docs/haaukins/introduction/>Introduction</a></li><li><a class=docs-link href=/docs/haaukins/testing/>Testing</a></li></ul><h3>Challenges</h3><ul class=list-unstyled><li><a class=docs-link href=/docs/challenges/binary/>Binary</a></li><li><a class=docs-link href=/docs/challenges/cryptography/>Cryptography</a></li><li><a class=docs-link href=/docs/challenges/forensics/>Forensics</a></li><li><a class=docs-link href=/docs/challenges/reverse-engineering/>Reverse Engineering</a></li><li><a class=docs-link href=/docs/challenges/starters/>Starters</a></li><li><a class=docs-link href=/docs/challenges/web-exploitation/>Web Exploitation</a></li><li><a class=docs-link href=/docs/challenges/challenge-struct/>A Challenge Struct</a></li><li><a class=docs-link href=/docs/challenges/how-to-create-chal/>How to Create A Challenge</a></li></ul><h3>Help</h3><ul class=list-unstyled><li><a class="docs-link active" href=/docs/help/troubleshooting/>Troubleshooting Haaukins</a></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=page-links><h3>On this page</h3><nav id=TableOfContents><ul><li><ul><li><a href=#no-space-left-on-device>No space left on device</a></li><li><a href=#vm-import-failed>VM Import failed</a><ul><li><a href=#import-vm-failed-due-to-no-space>Import VM failed due to no space</a><ul><li><a href=#create-data-folder-for-each-user-on-the-system>Create data folder for each user on the system</a></li></ul></li><li><a href=#prune-volumes>Prune volumes</a></li></ul></li></ul></li><li><a href=#etc-letsencrypt>/etc/letsencrypt</a></li><li><a href=#what-this-is-the-default-configuration-directory-this-is-where-certbot-will-store-all>WHAT: This is the default configuration directory. This is where certbot will store all</a></li><li><a href=#generated-keys-and-issues-certificates>generated keys and issues certificates.</a></li><li><a href=#var-lib-letsencrypt>/var/lib/letsencrypt</a></li><li><a href=#what-this-is-default-working-directory>WHAT: This is default working directory.</a></li><li><a href=#certonly>certonly</a></li><li><a href=#what-this-certbot-subcommand-tells-certbot-to-obtain-the-certificate-but-not-not>WHAT: This certbot subcommand tells certbot to obtain the certificate but not not</a></li><li><a href=#install-it-we-don-t-need-to-install-it-because-we-will-be-linking-directly-to-the>install it. We don&rsquo;t need to install it because we will be linking directly to the</a></li><li><a href=#generated-certificate-files-from-within-our-subsequent-nginx-configuration>generated certificate files from within our subsequent nginx configuration.</a></li><li><a href=#d>-d</a></li><li><a href=#what-defines-one-of-the-domains-to-be-used-in-the-certificate-we-can-have-up-to-100>WHAT: Defines one of the domains to be used in the certificate. We can have up to 100</a></li><li><a href=#domains-in-a-single-certificate-in-this-case-we-re-obtaining-a-wildcard-subdomain>domains in a single certificate. In this case, we&rsquo;re obtaining a wildcard-subdomain</a></li><li><a href=#certificate-which-was-just-made-possible-in-addition-to-the-base-domain>certificate (which was just made possible!) in addition to the base domain.</a></li><li><a href=#manual>&ndash;manual</a></li><li><a href=#what-tells-certbot-that-we-are-going-to-use-the-manual-plug-in-which-means-we-will>WHAT: Tells certbot that we are going to use the &ldquo;manual&rdquo; plug-in, which means we will</a></li><li><a href=#require-interactive-instructions-for-passing-the-authentication-challenge-in-this-case>require interactive instructions for passing the authentication challenge. In this case</a></li><li><a href=#using-dns-we-re-going-to-need-to-know-which-dns-txt-entires-to-create-in-our-domain>(using DNS), we&rsquo;re going to need to know which DNS TXT entires to create in our domain</a></li><li><a href=#name-servers>name servers.</a></li><li><a href=#preferred-challenges-dns>&ndash;preferred-challenges dns</a></li><li><a href=#what-defines-which-of-the-authentication-challenges-we-want-to-implement-with-our>WHAT: Defines which of the authentication challenges we want to implement with our</a></li><li><a href=#manual-configuration-steps>manual configuration steps.</a></li><li><a href=#server-https-acme-v02-api-letsencrypt-org-directory>&ndash;server <a href=https://acme-v02.api.letsencrypt.org/directory>https://acme-v02.api.letsencrypt.org/directory</a></a></li><li><a href=#what-the-client-end-point-resource-that-provides-the-actual-certificates-the-v02>WHAT: The client end-point / resource that provides the actual certificates. The &ldquo;v02&rdquo;</a></li><li><a href=#end-point-is-the-only-one-capable-of-providing-wildcard-ssl-certificates-at-this-time>end-point is the only one capable of providing wildcard SSL certificates at this time,</a></li><li><a href=#ex-example-com>(ex, *.example.com).</a></li></ul></nav></div></nav><main class="docs-content col-lg-11 col-xl-9"><h1>Troubleshooting Haaukins</h1><p class=lead>Solutions to common problems.</p><p>In this guideline, the way of handling troubles and possible reasons of troubles will be explained with some solutions.</p><p><em>The issues that you may face during active usage of Haaukins</em></p><ul><li><a href=#no-space-left-on-device>No space left on device</a></li><li><a href=#vm-import-failed>VM Import failed</a><ul><li><a href=#import-vm-failed-due-to-no-space>Import VM failed due to no space</a></li><li><a href=#create-data-folder-for-each-user-on-the-system>Create data folder for each user on the system</a></li></ul></li><li><a href=#config-file-not-found>Config file not found</a></li><li><a href=#guacamole-500-error>Guacamole 500 Error</a></li><li><a href=#pool-overlaps-with-other-one-on-this-address-space>Pool overlaps with other one on this address space</a><ul><li><a href=#prune-system>Prune System</a></li><li><a href=#prune-volumes>Prune volumes</a></li></ul></li><li><a href=#unable-to-create-database-client>Unable to create database client</a></li><li><a href=#certificate-issue>Certificate Issue</a></li></ul><p><em>Issues which can be seeing in setting up development environment</em></p><ul><li><a href=#config-file-not-found>Config file not found</a></li><li><a href=#unable-to-create-database-client>Unable to create database client</a></li><li><a href=#certificate-issue>Certificate Issue</a></li></ul><h2 id=no-space-left-on-device>No space left on device<a href=#no-space-left-on-device class=anchor aria-hidden=true>#</a></h2><p>This error could be caused due to various reasons which includes redundant inodes, bad blocks in your volume or an application which fills your <code>/</code> root directory.
+However, if you are facing this error after active usage of Haaukins platform you may need to configure your docker volumes path, the content of docker volumes should not be written to <code>/</code> root path.
+Check <a href=https://mrturkmen.com/no-space-left-on-device/>this guide</a> for solving <code>No space left on device</code> error and see whether it is caused due to docker or not.</p><p>There is another reason that you may face with this error when you are using Haaukins. In the project, we are using <code>ioutil.Tempfile</code> which is under the hood connected to <code>os.Tempfile</code> and if you do not specify first parameter for that function,
+it will use the value of <code>os.TempDir</code> as first parameter and it will check and return following values.</p><p>Definition of how <a href="https://golang.org/src/os/file.go?s=11019:11040#L348">os.TempDir</a>` is finding out which directory to use for temporary files.
+&gt; TempDir returns the default directory to use for temporary files.
+&gt; On Unix systems, it returns $TMPDIR if non-empty, else /tmp. On Windows,
+&gt; it uses GetTempPath, returning the first non-empty value from %TMP%, %TEMP%, %USERPROFILE%,
+&gt; or the Windows directory. On Plan 9, it returns /tmp.
+&gt; The directory is neither guaranteed to exist nor have accessible permissions.</p><p>If your <code>$TMPDIR</code> not set and you are using linux, then Haaukins will use <code>/tmp</code> directory for writing any temporary files.</p><p>You may need to set it to a place which is generally used for keeping data, e.g <code>/data/tmp</code> , rather than <code>/tmp</code> under root path.</p><p>If any of them did not work for you <a href="https://github.com/aau-network-security/haaukins/issues/new?assignees=&amp;labels=&amp;template=bug_report.md&amp;title=">create issue</a></p><p>Alternatively,symbolic links could be very useful for using a directory which is not under root</p><p>You can bound a symbolic link to <code>/tmp</code> as follows;</p><pre><code class=language-bash>ln -s /data/tmp /tmp 
+</code></pre><p>Creating symbolic link means that the data will actually reside in <code>/data/tmp</code> however, the data can be accesible and usable from <code>/tmp</code>.</p><h2 id=vm-import-failed>VM Import failed<a href=#vm-import-failed class=anchor aria-hidden=true>#</a></h2><p>This issue can be caused for different reasons, it could be not enough space on the folder where VM will be important or bad VM file (-bad ova file-), in this case some operations should be done in order to fix it.</p><h3 id=import-vm-failed-due-to-no-space>Import VM failed due to no space<a href=#import-vm-failed-due-to-no-space class=anchor aria-hidden=true>#</a></h3><p>In our case, we have faced with import error which means that when we try to import VM, it failed due to not having space on the server. In this case, an inspection made the reason of failing very clear.</p><p>All data regarding to VM and other applications stayed on <code>root</code> path which is not a common case for managing servers. <code>root</code> path should contain essential programs and installations where operating system is requiring or an application which should be under a user&rsquo; home folder. Therefore, <code>root</code> path should be as clean as possible, all related data to an application should be stayed under <code>data</code> path/folder.</p><p>Example output of this error:</p><pre><code class=language-bash>10:02AM DBG getting path lock first_time=true path=/&lt;user-daemon-path&gt;/frontends/kali.ova
+10:03AM ERR Error while creating new lab VBoxError [import /&lt;user-daemon-path&gt;/frontends/kali.ova --vsys 0 --vmname kali{ecc3ea71}]: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Interpreting /&lt;user-daemon-path&gt;/frontends/kali.ova...
+OK.
+0%...10%...20%...30%...
+Progress state: VBOX_E_FILE_ERROR
+VBoxManage: error: Appliance import failed
+VBoxManage: error: Could not create the imported medium '/&lt;path-to-vms&gt;/VirtualBox VMs/kali/kali-disk001_2.vmdk'.
+VBoxManage: error: VMDK: cannot write allocated data block in '/&lt;path-to-vms&gt;/VirtualBox VMs/kali/kali-disk001_2.vmdk' (VERR_DISK_FULL)
+VBoxManage: error: Details: code VBOX_E_FILE_ERROR (0x80bb0004), component ApplianceWrap, interface IAppliance
+VBoxManage: error: Context: &quot;RTEXITCODE handleImportAppliance(HandlerArg*)&quot; at line 886 of file VBoxManageAppliance.cpp
+Disks:
+  vmdisk1	42949672960	-1	http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized	kali-disk001.vmdk	-1	-1	
+Virtual system 0:
+ 0: Suggested OS type: &quot;Debian_64&quot;
+    (change with &quot;--vsys 0 --ostype &lt;type&gt;&quot;; use &quot;list ostypes&quot; to list all possible values)
+ 1: VM name specified with --vmname: &quot;kali{ecc3ea71}&quot;
+ 2: Number of CPUs: 2
+    (change with &quot;--vsys 0 --cpus &lt;n&gt;&quot;)
+ 3: Guest memory: 1024 MB
+    (change with &quot;--vsys 0 --memory &lt;MB&gt;&quot;)
+ 4: Sound card (appliance expects &quot;&quot;, can change on import)
+    (disable with &quot;--vsys 0 --unit 4 --ignore&quot;)
+ 5: Network adapter: orig NAT, config 3, extra slot=0;type=NAT
+ 6: IDE controller, type PIIX4
+    (disable with &quot;--vsys 0 --unit 6 --ignore&quot;)
+ 7: IDE controller, type PIIX4
+    (disable with &quot;--vsys 0 --unit 7 --ignore&quot;)
+ 8: Hard disk image: source image=kali-disk001.vmdk, target path=/&lt;path-to-vms&gt;/VirtualBox VMs/kali/kali-disk001_2.vmdk, controller=6;channel=0
+    (change target path with &quot;--vsys 0 --unit 8 --disk path&quot;;
+    disable with &quot;--vsys 0 --unit 8 --ignore&quot;)
+</code></pre><p>In order to overcome such a situation, it is always nice to have exclusive data folder for each users on the server where they reside their data regarding to their applications/research.</p><h4 id=create-data-folder-for-each-user-on-the-system>Create data folder for each user on the system<a href=#create-data-folder-for-each-user-on-the-system class=anchor aria-hidden=true>#</a></h4><p>In general, servers have data path which is much higher than normal <code>root</code> path. In order to make <code>root</code> path as clean as possible, all data under <code>/home/${USER}</code> should be migrated into <code>data</code> path</p><p>Changing default home folder can help to overcome the problem.</p><pre><code class=language-bash>$ sudo su 
+$ mkdir /data/${USER}
+$ chown -R ${USER}:${USER} /data/${USER}
+$ usermod -d  /data/${USER} ${USER} # will change default home dir to /data/${USER}
+$ mv /home/${USER}/* /data/${USER}
+</code></pre><p>Following bash script could be used automated way of handling the operation.</p><pre><code>#!/bin/bash 
+
+# do not include the user who logged in to server 
+# make sure that user has admin privileges
+
+declare -a users=(&quot;user1&quot; &quot;user2&quot; &quot;user3&quot;)
+
+for user in &quot;${users[@]}&quot;
+do
+   mkdir /data/$user
+   chown -R $user:$user /data/$user
+   # or do whatever with individual element of the array
+   usermod -d  /data/$user $user
+   mv /home/$user/* /data/$user
+done
+
+``````
+
+Do that operations for all users (-except the one who logged in to server-) who consumes a lot of places in terms of data. 
+
+Afterwards, there will be no problems regarding to spaces until, `/data` path is full. 
+
+
+
+### Import failed due to bad ova file 
+
+It is very clear that the problem is directly related to corrupted ova file, in those cases update ova file with non-corrupted file. 
+
+### Import failed due to no permission 
+
+In some cases, permission is denied for importing VMs, in order to overcome, change the permission of the folder where VMs are generated with correct permissions. 
+
+Permissions are changed through `chmod` command. 
+
+Examples:
+
+</code></pre><p>bash
+$ chmod +rw /vms/</p><pre><code>It will add to the permission of `/vms`  write and read permissions. 
+
+
+## Config file not found
+
+Basically it clarifies config file is missing, when you are running daemon of Haaukins or from source code, either you need to clarify config file by adding `--config` flag at the end of file. 
+
+Like; 
+
+`go run main.go --config=/&lt;absolute-path-to-config&gt;/config.yml`]
+
+For demonized version of Haaukins, you can provide config path after binary such as ; 
+
+`&lt;path-to-binary&gt;/hknd --config=/&lt;absolute-path-to-config/config.yml&gt;`  
+
+Keep in mind that Haaukins is looking for config.yml file on the same directory with binary, which means that if config.yml file on the same directory with Haaukins binary, 
+there is no need to provide absolute path of configuration file. 
+
+## Guacamole 500 Error 
+This error might happen for some reasons which are;
+
+- VRDE feature is NOT enabled on virtualbox. It needs to be installed by following 
+</code></pre><p>bash
+$ VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.44.vbox-extpack</p><pre><code>   The version of extension version differs according to version of virtual box that you are having on the server. 
+   
+- VM might NOT be active (Not running state, check it)
+
+- Be careful about updating and downgrading the kernel version, it may cause serious headaches 
+  Make sure that Docker and Vboxmanage have been installed correctly. 
+  
+- For Haaukins specific; check resume functionality on teams to make sure that suspended VMs started without error. 
+  If there is an error happened restart VM which throws the error. 
+
+
+- Guacamole mysql is NOT able to run. (Crashing) 
+
+Mysql requires following configuration file to be placed. 
+
+ - [https://help.directadmin.com/item.php?id=529](https://help.directadmin.com/item.php?id=529)
+ 
+ - [https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_use_native_aio](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_use_native_aio)
+
+
+## Pool overlaps with other one on this address space
+
+This issue has been resolved completely, the reason of this error was that Haaukins is creating random Docker network, using some common private IP addresses. For instance, when you run docker-compose or a docker container, default docker network will assign an IP address from 192.168 or 172 which are common network range which Docker daemon is using. Haaukins was also using that range to generate random Docker networks, which has been updated from the version [2.4.2](https://github.com/aau-network-security/haaukins/releases/tag/2.4.2) on Haaukins project, the issue resolved.
+
+### Prune System 
+
+</code></pre><p>docker system prune -f ```</p><h3 id=prune-volumes>Prune volumes<a href=#prune-volumes class=anchor aria-hidden=true>#</a></h3><pre><code class=language-docker>
+
+
+## Unable to create database client
+
+Having problems regarding to database client might be happened due to certificates error, or not running healthy haaukins-store,
+in these cases there are some things to care of ; 
+
+- Ensure haaukins store is running correctly 
+  
+  It is always good to be sure about docker status of haaukins store, it can be checked through `docker-compose logs -f` which will feed your stdout with logs, 
+  if everything seems ok and no problem, you can close watching logs. If there is an error or something on logs, try to fix it with proper approach. 
+  
+- Check version of store and haaukins daemon 
+  
+  In some cases, it might be the case where daemon and store do not share same version which means that some functionalities and features might not work. In those cases, 
+  client might not be able to create connection with database due to proto file differences. (- contract differences- ) Ensure that versions are matching, like features 
+  and functionalities released in both programs. 
+  
+- Check certificates 
+    
+  Since haaukins and store are using secure gRPC calls, certificates are required to be in place, however certificates which daemon (-for db client-) and store should share 
+  same certificates to have a secure gRPC connection. Make sure that there is no problem regarding to certificates. 
+  
+- Check ports
+
+  Configuration files for both client and daemon is crucial to run the program correctly, hence, it is good habit to check all values in configuration file. Especially, providing port 
+  numbers for store and daemon is quite important for communicating, check out them. If there is no issue regarding to configuration file and if you are still getting error when you run 
+  the program, check logs in depth. 
+  
+  
+## Certificate Issue
+
+Certificates are crucial for any component of haaukins which provides secure communication between clients and server, for this reason, it is quite important to 
+setup auto-renew of certificates for all domains where haaukins component is using. For a domain where there is no certificate issued yet, following script can help 
+to retrieve certificate from Let's Encrypt, before using the script make sure that you are able to add TXT record on domain manager like Cloudflare. 
+
+Keep in mind that, `example.domain.com` should be changed with your domain which you would like to get certificate on. 
+
+</code></pre><p>bash</p><p>#!/bin/bash</p><h1 id=etc-letsencrypt>/etc/letsencrypt</h1><h1 id=what-this-is-the-default-configuration-directory-this-is-where-certbot-will-store-all>WHAT: This is the default configuration directory. This is where certbot will store all</h1><h1 id=generated-keys-and-issues-certificates>generated keys and issues certificates.</h1><p>#</p><h1 id=var-lib-letsencrypt>/var/lib/letsencrypt</h1><h1 id=what-this-is-default-working-directory>WHAT: This is default working directory.</h1><p>#</p><h1 id=certonly>certonly</h1><h1 id=what-this-certbot-subcommand-tells-certbot-to-obtain-the-certificate-but-not-not>WHAT: This certbot subcommand tells certbot to obtain the certificate but not not</h1><h1 id=install-it-we-don-t-need-to-install-it-because-we-will-be-linking-directly-to-the>install it. We don&rsquo;t need to install it because we will be linking directly to the</h1><h1 id=generated-certificate-files-from-within-our-subsequent-nginx-configuration>generated certificate files from within our subsequent nginx configuration.</h1><p>#</p><h1 id=d>-d</h1><h1 id=what-defines-one-of-the-domains-to-be-used-in-the-certificate-we-can-have-up-to-100>WHAT: Defines one of the domains to be used in the certificate. We can have up to 100</h1><h1 id=domains-in-a-single-certificate-in-this-case-we-re-obtaining-a-wildcard-subdomain>domains in a single certificate. In this case, we&rsquo;re obtaining a wildcard-subdomain</h1><h1 id=certificate-which-was-just-made-possible-in-addition-to-the-base-domain>certificate (which was just made possible!) in addition to the base domain.</h1><p>#</p><h1 id=manual>&ndash;manual</h1><h1 id=what-tells-certbot-that-we-are-going-to-use-the-manual-plug-in-which-means-we-will>WHAT: Tells certbot that we are going to use the &ldquo;manual&rdquo; plug-in, which means we will</h1><h1 id=require-interactive-instructions-for-passing-the-authentication-challenge-in-this-case>require interactive instructions for passing the authentication challenge. In this case</h1><h1 id=using-dns-we-re-going-to-need-to-know-which-dns-txt-entires-to-create-in-our-domain>(using DNS), we&rsquo;re going to need to know which DNS TXT entires to create in our domain</h1><h1 id=name-servers>name servers.</h1><p>#</p><h1 id=preferred-challenges-dns>&ndash;preferred-challenges dns</h1><h1 id=what-defines-which-of-the-authentication-challenges-we-want-to-implement-with-our>WHAT: Defines which of the authentication challenges we want to implement with our</h1><h1 id=manual-configuration-steps>manual configuration steps.</h1><p>#</p><h1 id=server-https-acme-v02-api-letsencrypt-org-directory>&ndash;server <a href=https://acme-v02.api.letsencrypt.org/directory>https://acme-v02.api.letsencrypt.org/directory</a></h1><h1 id=what-the-client-end-point-resource-that-provides-the-actual-certificates-the-v02>WHAT: The client end-point / resource that provides the actual certificates. The &ldquo;v02&rdquo;</h1><h1 id=end-point-is-the-only-one-capable-of-providing-wildcard-ssl-certificates-at-this-time>end-point is the only one capable of providing wildcard SSL certificates at this time,</h1><h1 id=ex-example-com>(ex, *.example.com).</h1><p>#
+docker run -it &ndash;rm &ndash;name letsencrypt<br>-v &ldquo;/etc/letsencrypt:/etc/letsencrypt&rdquo;<br>-v &ldquo;/var/lib/letsencrypt:/var/lib/letsencrypt&rdquo;<br>quay.io/letsencrypt/letsencrypt:latest<br>certonly<br>-d example.domain.com
+-d *.example.domain.com<br>&ndash;manual<br>&ndash;preferred-challenges dns<br>&ndash;server <a href=https://acme-v02.api.letsencrypt.org/directory>https://acme-v02.api.letsencrypt.org/directory</a></p><pre><code>
+Once certificates are retrieved and placed, you have to have auto-renew as cron job or inside a docker environment in order to do not deal 
+with renewing certificates manually all the time. 
+
+You can either download and use `certbot-auto renew` command from directly host or you can perform same thing through docker, 
+for host integration following steps should be enough : 
+
+</code></pre><p>bash
+$ cd /etc/letsencrypt
+$ wget <a href=https://dl.eff.org/certbot-auto>https://dl.eff.org/certbot-auto</a> &amp;&amp; chmod a+x certbot-auto
+$ ./certbot-auto renew</p><pre><code>
+It will check certificates and renew them if they are about to expire, you can add that task into cron job. 
+
+</code></pre><p>bash
+$ crontab -e
+0 0 * * 0 cd /etc/letsencrypt/ &amp;&amp; ./certbot-auto renew
+```</p><p>It will run every week at 00:00 on Sunday.</p><p>For Docker based approach, similar steps can be achieved as well, there are plenty of examples regarding to it, you may check following approach or create new one;</p><ul><li><a href=https://github.com/adferrand/dnsrobocert>https://github.com/adferrand/dnsrobocert</a></li></ul><p class=edit-page><a href=https://github.com/aau-network-security/haaukins-docs/blob/master/content/docs/help/troubleshooting.md><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828.0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>Edit this page on GitHub</a></p><div class="docs-navigation d-flex justify-content-between"><a href=/docs/challenges/binary/><div class="card my-1"><div class="card-body py-2">&larr; Binary</div></div></a><a class=ml-auto href=/docs/challenges/how-to-create-chal/><div class="card my-1"><div class="card-body py-2">How to Create A Challenge &rarr;</div></div></a></div></main></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Haaukins - Open Source Cyber Training Platform</li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-right"><ul class=list-inline><li class=list-inline-item><a href=/privacy-policy/>Privacy</a></li></ul></div></div></div></footer><script src=/main.f6b484f556ad1f3bcf6061082139a2f21fa759f13930c39a25fe4a9f78f35e64122c2d86dffd56e67b292dabbda4095d8077194f196e0e348441c106a9f3d40e.js integrity="sha512-9rSE9VatHzvPYGEIITmi8h&#43;nWfE5MMOaJf5Kn3jzXmQSLC2G3/1W5nspLau9pAldgHcZTxluDjSEQcEGqfPUDg==" crossorigin=anonymous defer></script><script src=/index.min.7c845397b74baa3ecf80ecb6c13e584a48e52e781cc36a139c7d82c5ed5a845843638c819e0e78723ed9df9aba5eb71365dafa8109218ada765c23ec67687e72.js integrity="sha512-fIRTl7dLqj7PgOy2wT5YSkjlLngcw2oTnH2Cxe1ahFhDY4yBng54cj7Z35q6XrcTZdr6gQkhitp2XCPsZ2h&#43;cg==" crossorigin=anonymous defer></script></body></html>
