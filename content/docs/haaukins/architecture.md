@@ -1,5 +1,5 @@
 ---
-title: "Overall Architecture"
+title: "Architecture"
 description: "Haaukins Platform"
 lead: ""
 date: 2021-04-24T01:29:01+02:00
